@@ -373,7 +373,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 
 /*********************************
@@ -384,7 +384,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #B22222;
 }
 .header_side img
 {
@@ -426,7 +426,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #B22222;
 }
 
 /*********************************
@@ -504,7 +504,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .menu_close_container
 {
@@ -551,7 +551,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #B22222;
 }
 
 /*********************************
@@ -585,7 +585,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .menu_container.active .menu_social_container
 {
@@ -662,7 +662,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #B22222;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -693,14 +693,15 @@ section
 }
 .section_title
 {
+	margin-top: 5px;
 
 }
 .section_title h1
 {
 	display: block;
-	color: #1a1a1a;
+	color: #000000;
 	font-weight: 500;
-	padding-top: 24px;
+	padding-top: 15px;
 }
 .section_title h1::before
 {
@@ -716,7 +717,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #B22222;
 }
 
 /*********************************
@@ -772,8 +773,17 @@ section
 }
 .card-img-top
 {
+	
+	width: 550px;
+	height: 450px;
+}
+.card-img
+{
+	
 	border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+	width: 350px;
+	height: 275px;
 }
 .card-body
 {
@@ -790,8 +800,9 @@ section
 {
 	font-size: 22px;
 	font-weight: 500;
-	color: #1a1a1a;
+	color: #000000;
 	line-height: 1.2;
+	margin-top: -12px;
 }
 .card-title a:hover
 {
@@ -799,10 +810,11 @@ section
 }
 .card-text
 {
-	font-size: 14px;
-	font-weight: 500;
-	color: #a5a5a5;
-	margin-top: -12px;
+	font-size: 28px;
+	color: #000000;
+	margin-top: 25px;
+	line-height: 1.2;
+	font-family: Georgia;
 }
 .price_box
 {
@@ -823,7 +835,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #1a1a1a;
+	color: #000000;
 	padding-left: 20px;
 	margin-top: 7px;
 }
@@ -835,7 +847,7 @@ section
 {
 	width: 67px;
 	height: 67px;
-	background: #ffb606;
+	background: #B22222;
 	margin-left: auto;
 }
 .course_price span
@@ -846,15 +858,120 @@ section
 	margin-top: 7px;
 }
 
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+8. Buttons
+9. News
+	9.1 Comments
+	9.2 Leave Comment
+10. Sidebar
+
+
+
 /*********************************
-10. Footer
+10. Sidebar
+*********************************/
+
+
+.latest_posts
+{
+	margin-top: 50px;
+}
+.latest_post
+{
+	margin-bottom: 27px;
+}
+.latest_post:last-child
+{
+	margin-bottom: 0px;
+}
+.latest_post_image
+{
+	width: 100%;
+}
+.latest_post_image img
+{
+	width: 100%;
+	height: auto;
+}
+.latest_post_title
+{
+	margin-top: 24px;
+}
+.latest_post_title a
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #000000;
+}
+.latest_post_title a:hover,
+.latest_post_author a:hover,
+.latest_post_comments a:hover
+{
+	color: #a5a5a5;
+}
+.latest_post_meta
+{
+	color: #000000;
+	margin-top: 6px;
+}
+.latest_post_author a
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #a5a5a5;
+	line-height: 1;
+}
+.latest_post_comments a
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #a5a5a5;
+	line-height: 1;
+}
+.latest_post_meta span:nth-child(2)
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.tags
+{
+	margin-top: 50px;
+}
+.tag
+{
+	height: 40px;
+	background: #B22222;
+	margin-right: 12px;
+	margin-bottom: 10px;
+}
+.tag a
+{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*********************************
+15. Footer
 *********************************/
 
 .footer
 {
 	width: 100%;
 	padding-top: 86px;
-	background: #1a1a1a;
+	background: #000000;
 }
 .footer .section_title h1
 {
@@ -862,7 +979,7 @@ section
 }
 
 /*********************************
-10.1 Newsletter
+15.1 Newsletter
 *********************************/
 
 .newsletter
@@ -882,18 +999,18 @@ section
 	border: none;
 	padding-left: 27px;
 	font-weight: 500;
-	color: #1a1a1a;
+	color: #000000;
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #B22222;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #B22222;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -904,8 +1021,123 @@ section
 	border: solid 2px #FFFFFF;
 }
 
+
+
 /*********************************
-10.2 Footer Content
+9. News
+*********************************/
+
+.news
+{
+	width: 100%;
+	padding-top: 103px;
+	padding-bottom: 118px;
+}
+.news_post
+{
+	margin-bottom: 85px;
+	margin-left: 10px;
+}
+.news_post:last-child
+{
+	/*margin-bottom: 0px;*/
+}
+.news_post_title_container
+{
+	padding-left: 31px;
+	margin-top: 15px;
+	font-size: 50px;
+	margin-bottom: 7px;
+	font-family: Bookman Old Style;
+}
+.news_post_title a
+{
+	font-size: 36px;
+	line-height: 1.2;
+	color: #000000;
+}
+.news_post_title a:hover,
+.news_post_author a:hover,
+.news_post_comments a:hover
+{
+	color: #a5a5a5;
+}
+.news_post_meta
+{
+	color: #000000;
+	margin-top: 5px;
+	padding-left: 2px;
+}
+.news_post_author a
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 1;
+}
+.news_post_comments a
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 1;
+}
+.news_post_meta span:nth-child(2)
+{
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.news_post_container
+{
+	font-size: 35px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #000000;
+}
+.news_post_text
+{
+	color:  black;
+	font-size: 20px;
+	font-family: Book Antiqua;
+	margin-top: 15px;
+
+	
+}
+/*********************************
+9.1 News Page Nav
+*********************************/
+
+.news_page_nav ul li
+{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	background: #d2d2d2;
+	margin-right: 3px;
+}
+.news_page_nav ul li.active
+{
+	background: #ffb606;
+}
+.news_page_nav ul li:hover
+{
+	background: #ffb606;
+}
+.news_page_nav ul li a
+{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 43px;
+}
+
+
+
+/*********************************
+15.2 Footer Content
 *********************************/
 
 .footer_content 
@@ -955,7 +1187,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .footer_contact_item
 {
@@ -982,7 +1214,7 @@ section
 }
 
 /*********************************
-10.3 Footer Copyright
+15.3 Footer Copyright
 *********************************/
 
 .footer_bar
@@ -996,9 +1228,10 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .footer_social .menu_social_item:last-child
 {
 	margin-right: 0px;
 }
+

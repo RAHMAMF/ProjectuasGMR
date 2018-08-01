@@ -375,7 +375,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 
 /*********************************
@@ -386,7 +386,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #B22222;
 }
 .header_side img
 {
@@ -428,7 +428,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #B22222;
 }
 
 /*********************************
@@ -506,7 +506,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .menu_close_container
 {
@@ -553,7 +553,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #B22222;
 }
 
 /*********************************
@@ -591,7 +591,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .menu_container.active .menu_social_container
 {
@@ -668,7 +668,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #B22222;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -717,7 +717,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #B22222;
 }
 
 /*********************************
@@ -780,7 +780,7 @@ section
 {
 	width: 68px;
 	height: 68px;
-	background: #ffb606;
+	background: #B22222;
 }
 .news_post_date div:first-child
 {
@@ -852,7 +852,7 @@ section
 {
 	width: 188px;
 	height: 53px;
-	background: #ffb606;
+	background: #B22222;
 	margin-top: 18px;
 }
 .news_post_button a
@@ -882,11 +882,11 @@ section
 }
 .news_page_nav ul li.active
 {
-	background: #ffb606;
+	background: #B22222;
 }
 .news_page_nav ul li:hover
 {
-	background: #ffb606;
+	background: #B22222;
 }
 .news_page_nav ul li a
 {
@@ -895,6 +895,70 @@ section
 	font-weight: 500;
 	color: #FFFFFF;
 	line-height: 43px;
+}
+
+/*********************************
+9.2 Leave Comment
+*********************************/
+
+.leave_comment
+{
+	margin-top: 51px;
+}
+.leave_comment_title
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #1a1a1a;
+}
+.leave_comment_form_container
+{
+	margin-top: 77px;
+}
+.input_field
+{
+	width: 100%;
+	background: #f8f4f4;
+	border: solid 2px transparent;
+	margin-bottom: 24px;
+	height: 42px;
+	padding-left: 33px;
+}
+.input_field:focus
+{
+	outline: none !important;
+	border-color: #B22222;
+}
+.text_field
+{
+	width: 100%;
+	height: 189px;
+	background: #f8f4f4;
+	border: solid 2px transparent;
+	padding-left: 33px;
+	margin-bottom: 24px;
+}
+.text_field:focus
+{
+	outline: none !important;
+	border-color: #B22222;
+}
+.comment_send_btn
+{
+	width: 100%;
+	height: 48px;
+	background: #B22222;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: none;
+}
+.comment_send_btn:focus
+{
+	outline: solid 1px #B22222;
+	border: green !important;
 }
 
 /*********************************
@@ -941,7 +1005,7 @@ section
 }
 .sidebar_list_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .latest_posts
 {
@@ -1014,7 +1078,7 @@ section
 .tag
 {
 	height: 40px;
-	background: #ffb606;
+	background: #B22222;
 	margin-right: 12px;
 	margin-bottom: 10px;
 }
@@ -1069,14 +1133,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px #B22222;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background: #B22222;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1138,7 +1202,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .footer_contact_item
 {
@@ -1179,7 +1243,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #B22222;
 }
 .footer_social .menu_social_item:last-child
 {

@@ -375,7 +375,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color:#B22222;
 }
 
 /*********************************
@@ -386,7 +386,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background:#B22222;
 }
 .header_side img
 {
@@ -428,7 +428,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color:#B22222;
 }
 
 /*********************************
@@ -506,7 +506,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color:#B22222;
 }
 .menu_close_container
 {
@@ -553,7 +553,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background:#B22222;
 }
 
 /*********************************
@@ -591,7 +591,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color:#B22222;
 }
 .menu_container.active .menu_social_container
 {
@@ -668,7 +668,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background:#B22222;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -716,7 +716,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background:#B22222;
 }
 
 /*********************************
@@ -785,31 +785,7 @@ section
 	border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-.card_plus
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%) scale(0.5);
-	-moz-transform: translate(-50%, -50%) scale(0.5);
-	-ms-transform: translate(-50%, -50%) scale(0.5);
-	-o-transform: translate(-50%, -50%) scale(0.5);
-	transform: translate(-50%, -50%) scale(0.5);
-	width: 75px;
-	height: 75px;
-	background: #ffb606;
-	z-index: 10;
-	cursor: pointer;
-	visibility: hidden;
-	opacity: 0;
-}
-.card_plus a
-{
-	display: block;
-	font-size: 24px;
-	line-height: 75px;
-	color: #FFFFFF;
-}
+
 .card-body
 {
 	padding-top: 0px;
@@ -834,10 +810,20 @@ section
 }
 .card-text
 {
-	font-size: 14px;
-	font-weight: 500;
-	color: #a5a5a5;
-	margin-top: -7px;
+	font-size: 28px;
+	color: #000000;
+	margin-top: 25px;
+	line-height: 1.2;
+	font-family: Georgia;
+}
+.news_post_text
+{
+	color:  black;
+	font-size: 20px;
+	font-family: Book Antiqua;
+	margin-top: 15px;
+
+	
 }
 .teacher_social
 {
@@ -884,7 +870,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #ffb606;
+	color:#B22222;
 	line-height: 1;
 	margin-top: 41px;
 }
@@ -922,7 +908,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background:#B22222;
 }
 .become_text
 {
@@ -935,7 +921,7 @@ section
 {
 	width: 188px;
 	height: 53px;
-	background: #ffb606;
+	background:#B22222;
 	margin-top: 37px;
 }
 .become_button a
@@ -1000,14 +986,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #ffb606;
+	outline: solid 2px#B22222;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #ffb606;
+	background:#B22222;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1069,7 +1055,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #ffb606;
+	color:#B22222;
 }
 .footer_contact_item
 {
@@ -1110,7 +1096,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color:#B22222;
 }
 .footer_social .menu_social_item:last-child
 {
